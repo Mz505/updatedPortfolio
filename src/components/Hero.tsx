@@ -180,7 +180,7 @@ const Hero = () => {
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
                 <span className="block text-white mb-2 relative inline-block">
-                  I'M 
+                  I'M Mashal Zerak,
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full nav-underline" style={{animation: 'underlineGlow 2s ease-in-out infinite'}}></div>
                 </span>
                 <span className="block bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent min-h-[4rem] sm:min-h-[5rem] md:min-h-[6rem] flex items-start">
