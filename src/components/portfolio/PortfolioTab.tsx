@@ -79,7 +79,7 @@ const PortfolioTab = () => {
     ,
     {
       id: 9,
-      title: 'Fursatuna Afghan — Job Portal',
+      title: 'Fursats Afghan — Job Portal',
       description: 'Job portal connecting seekers and employers in Afghanistan. React SPA with Supabase for auth, storage, and PostgREST data. Features dashboards, job search, applications, company verification, and Stripe-powered plans.',
       image: '/assets/fursats.png',
       liveUrl: '#',
