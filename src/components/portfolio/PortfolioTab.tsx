@@ -76,6 +76,16 @@ const PortfolioTab = () => {
       codeUrl: 'https://github.com/Mz505/Meal_Analyzer.git',
       tags: ['React', 'TypeScript', 'Tailwind', 'AI', 'Vision', 'Supabase']
     }
+    ,
+    {
+      id: 9,
+      title: 'Fursatuna Afghan — Job Portal',
+      description: 'Job portal connecting seekers and employers in Afghanistan. React SPA with Supabase for auth, storage, and PostgREST data. Features dashboards, job search, applications, company verification, and Stripe-powered plans.',
+      image: '/assets/fursats.png',
+      liveUrl: '#',
+      codeUrl: '#',
+      tags: ['React', 'react-router-dom', 'Tailwind', 'shadcn/ui', 'lucide-react', '@tanstack/react-query', 'Supabase', 'PostgREST', 'Stripe']
+    }
   ];
 
   return (
