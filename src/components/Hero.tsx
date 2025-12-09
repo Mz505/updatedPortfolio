@@ -108,6 +108,9 @@ const Hero = () => {
                         <img 
                           src="/assets/mz.jpeg" 
                           alt="Mashal Zerak - Full Stack Developer"
+                          loading="eager"
+                          decoding="async"
+                          fetchpriority="high"
                           className="w-full h-full object-cover rounded-full border-2 border-gray-700/50 shadow-2xl hover:scale-105 transition-transform duration-500"
                         />
                       </div>

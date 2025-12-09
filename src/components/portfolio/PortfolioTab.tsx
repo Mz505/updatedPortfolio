@@ -82,7 +82,7 @@ const PortfolioTab = () => {
       title: 'Fursats Afghan — Job Portal',
       description: 'Job portal connecting seekers and employers in Afghanistan. React SPA with Supabase for auth, storage, and PostgREST data. Features dashboards, job search, applications, company verification, and Stripe-powered plans.',
       image: '/assets/fursats.png',
-      liveUrl: '#',
+      liveUrl: 'https://fursatsjobs.netlify.app/',
       codeUrl: '#',
       tags: ['React', 'react-router-dom', 'Tailwind', 'shadcn/ui', 'lucide-react', '@tanstack/react-query', 'Supabase', 'PostgREST', 'Stripe']
     }
@@ -101,6 +101,9 @@ const PortfolioTab = () => {
             <img 
               src={project.image} 
               alt={project.title}
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
               className="w-full h-40 sm:h-48 object-cover group-hover:scale-110 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

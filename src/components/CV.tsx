@@ -297,6 +297,12 @@ export default function CVPage() {
                 AI‑powered meal analysis using image recognition to deliver instant nutrition breakdowns (calories, macros, micros), daily dashboard, charts, history, and sharing. Live at mealanalyzer.netlify.app; code at github.com/Mz505/Meal_Analyzer.
               </p>
             </Card>
+            <Card className="bg-transparent backdrop-blur-sm border-gray-600/50 p-4 sm:p-6 shadow-lg">
+              <h3 className="text-lg sm:text-xl font-semibold text-cyan-400 mb-2 sm:mb-3">Fursats Afghan — Job Portal (React + Supabase)</h3>
+              <p className="text-white text-sm sm:text-base">
+                Job portal connecting seekers, employers, and admins in Afghanistan. Single‑page app built with Vite + React + Tailwind + shadcn/ui. Data and auth powered by Supabase (Postgres, Auth, Storage, Row Level Security, Edge Functions) with PostgREST via @supabase/supabase‑js and React Query for caching. Features include dashboards, job search and filters, applications tracking, company verification, and Stripe‑powered subscription plans. Live demo: fursatsjobs.netlify.app.
+              </p>
+            </Card>
           </div>
         </section>
 
