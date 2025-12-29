@@ -17,7 +17,7 @@ export default function CVPage() {
     <div className="min-h-screen w-full relative bg-transparent">
       {/* Copper Forge Background with Top Glow */}
       <div className="section-glow z-0" />
-      
+
       {/* Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 pt-20 sm:pt-32 pb-12">
         {/* Header Section */}
@@ -25,7 +25,7 @@ export default function CVPage() {
           <div className="flex-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 text-balance relative inline-block">
               MASHAL ZERAK
-              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full nav-underline" style={{animation: 'underlineGlow 2s ease-in-out infinite'}}></div>
+              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full nav-underline" style={{ animation: 'underlineGlow 2s ease-in-out infinite' }}></div>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-4">MERN Stack Developer and AI App Builder</p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-2 sm:gap-4 text-xs sm:text-sm text-gray-300">
@@ -57,7 +57,7 @@ export default function CVPage() {
               </div>
             </div>
           </div>
-          <Button 
+          <Button
             onClick={handleDownloadCV}
             className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base w-full sm:w-auto lg:flex-shrink-0"
           >
@@ -301,6 +301,12 @@ export default function CVPage() {
               <h3 className="text-lg sm:text-xl font-semibold text-cyan-400 mb-2 sm:mb-3">Fursats Afghan — Job Portal (React + Supabase)</h3>
               <p className="text-white text-sm sm:text-base">
                 Job portal connecting seekers, employers, and admins in Afghanistan. Single‑page app built with Vite + React + Tailwind + shadcn/ui. Data and auth powered by Supabase (Postgres, Auth, Storage, Row Level Security, Edge Functions) with PostgREST via @supabase/supabase‑js and React Query for caching. Features include dashboards, job search and filters, applications tracking, company verification, and Stripe‑powered subscription plans. Live demo: fursatsjobs.netlify.app.
+              </p>
+            </Card>
+            <Card className="bg-transparent backdrop-blur-sm border-gray-600/50 p-4 sm:p-6 shadow-lg">
+              <h3 className="text-lg sm:text-xl font-semibold text-cyan-400 mb-2 sm:mb-3">Bloom & Petals — Flower Shop (HTML + CSS + JavaScript)</h3>
+              <p className="text-white text-sm sm:text-base">
+                Elegant e‑commerce platform for handcrafted floral arrangements. Features include product catalog with multiple categories (flower bouquets, mini bouquets, flower baskets, flower boxes), shopping cart functionality, special offers and sale products, customer testimonials, and fully responsive design. Built with vanilla HTML, CSS, and JavaScript for optimal performance. Live at roseonline.netlify.app.
               </p>
             </Card>
           </div>

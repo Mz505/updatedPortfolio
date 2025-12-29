@@ -85,6 +85,15 @@ const PortfolioTab = () => {
       liveUrl: 'https://fursatsjobs.netlify.app/',
       codeUrl: '#',
       tags: ['React', 'react-router-dom', 'Tailwind', 'shadcn/ui', 'lucide-react', '@tanstack/react-query', 'Supabase', 'PostgREST', 'Stripe']
+    },
+    {
+      id: 10,
+      title: 'Bloom & Petals — Flower Shop',
+      description: 'Elegant e-commerce platform for handcrafted floral arrangements. Features product catalog, shopping cart, category browsing, special offers, and responsive design. Perfect for gifting and celebrations.',
+      image: 'https://images.pexels.com/photos/1458603/pexels-photo-1458603.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      liveUrl: 'https://roseonline.netlify.app/',
+      codeUrl: '#',
+      tags: ['HTML', 'CSS', 'JavaScript', 'E-commerce', 'Responsive Design']
     }
   ];
 
